@@ -1,0 +1,10 @@
+
+
+.card:hover{
+    animation: card-shadow 0.15s ease-in-out forwards;
+    
+}
+
+@keyframes card-shadow {
+    to{box-shadow: 4px 4px 2px #aaa;}
+}

@@ -1,0 +1,28 @@
+.input-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .input-container input[type="password"] {
+    padding-right: 30px; /* Распространение поля ввода для места под иконку */
+  }
+  
+  .toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+  .x{
+    height: 2.5rem;
+    width: 2.5rem;
+  
+    font-weight: 800;
+  }
+  .x:hover{
+    border-radius: 90%;
+    
+    background-color: #ccc;
+  }
