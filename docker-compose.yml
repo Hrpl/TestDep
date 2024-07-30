@@ -24,7 +24,7 @@ services:
       - dev
 
   frontend:
-     build: 
+    build: 
       context: ./React
     networks:
       - dev
